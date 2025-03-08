@@ -16,7 +16,7 @@ This project is a Vue 3 application built with Vite. It includes a basic setup w
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+## Project Setup yes
 
 ```sh
 npm install
