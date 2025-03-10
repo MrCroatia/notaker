@@ -1,7 +1,7 @@
 <template>
-  <button @click="$emit('toggle')" class="theme-button" :title="isDark ? 'Switch to light mode' : 'Switch to dark mode'">
-    <span class="icon">{{ isDark ? '☀️' : '🌙' }}</span>
-    <span class="tooltip">{{ isDark ? 'Light Mode' : 'Dark Mode' }}</span>
+  <button @click="$emit('toggle')" class="theme-button rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-colors duration-200 hover:bg-gray-300 dark:hover:bg-gray-600" :title="isDark ? 'Switch to light mode' : 'Switch to dark mode'">
+    <span class="icon text-xl">{{ isDark ? '☀️' : '🌙' }}</span>
+    <span class="tooltip hidden">{{ isDark ? 'Light Mode' : 'Dark Mode' }}</span>
   </button>
 </template>
 
